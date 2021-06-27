@@ -1,0 +1,70 @@
+{
+    "avatar_url": "https://www.matfyz.cz/cache/images/73/data-web-clanky-2019-tenkrat-v-listopadu-oldrich-semerak-ixxzlw-dsc-5512-clip-w1104-h564-o50.jpg",
+    "content": "Testovací zpráva",
+    "embeds": [
+        {
+            "author": {
+                "icon_url": "https://utf.mff.cuni.cz/seminare/texty/CORS/Semerak.JPG",
+                "name": "embed 1 (s odkazem)",
+                "url": "https://utf.mff.cuni.cz/seminare/texty/CORS/Semerak.JPG"
+            },
+            "color": 14591,
+            "description": "e 1 f 1 text",
+            "fields": [
+                {
+                    "inline": true,
+                    "name": "e 1 f 2",
+                    "value": "e 1 f 2 text"
+                },
+                {
+                    "inline": true,
+                    "name": "e 1 f 3",
+                    "value": "e 1 f 3 text"
+                },
+                {
+                    "inline": false,
+                    "name": "e 1 f 4",
+                    "value": "e 1 f 4 text (inline)"
+                }
+            ],
+            "footer": {
+                "icon_url": "https://universe-review.ca/I15-56-congruence.jpg",
+                "text": "e 1 footer"
+            },
+            "image": {
+                "url": "https://cerncourier.com/wp-content/uploads/2019/11/Rovelli-Twistors-Penrose-small.jpg"
+            },
+            "thumbnail": {
+                "url": "https://www.mff.cuni.cz/cache/images/ef/data-web-obsah-puvodni-verejnost-konalo-se-2015-11-tyden-gal-dsc-8288-resize-w1600-h1600-o50-so.jpg"
+            },
+            "timestamp": "2021-06-02T11:00:00.000Z",
+            "title": "e 1 f 1 (s odkazem)",
+            "url": "https://www.mff.cuni.cz/cache/images/ef/data-web-obsah-puvodni-verejnost-konalo-se-2015-11-tyden-gal-dsc-8288-resize-w1600-h1600-o50-so.jpg"
+        },
+        {
+            "author": {
+                "icon_url": null,
+                "name": "embed 2",
+                "url": null
+            },
+            "color": 15925382,
+            "description": "e 2 f 1 text",
+            "fields": [],
+            "footer": {
+                "icon_url": null,
+                "text": ""
+            },
+            "image": {
+                "url": null
+            },
+            "thumbnail": {
+                "url": null
+            },
+            "timestamp": null,
+            "title": "e 2 f 1",
+            "url": null
+        }
+    ],
+    "tts": false,
+    "username": "OldRich haha"
+}
