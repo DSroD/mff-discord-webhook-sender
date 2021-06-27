@@ -46,8 +46,14 @@
 }
 
 .msg-form-input {
+  margin: 8px;
   padding: 4px;
   background-color: #9a9fa8;
+}
+
+.msg-form-button {
+  margin: 8px;
+  padding: 4px;
 }
 
 .avatar-main {
