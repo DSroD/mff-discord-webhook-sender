@@ -31,7 +31,7 @@ class MessageComponent extends React.Component {
   addEmbed = () => {
     this.setState({
         embeds: [...this.state.embeds, <EmbedComponent embId={this.state.nextId} delFunc={this.deleteEmbed} updateFunc={this.updateEmbed}/>],
-        embed_data: [... this.state.embed_data, {id: this.state.nextId, authorName: '', embedTitle: '', embedDescription: ''}],
+        embed_data: [... this.state.embed_data, {id: this.state.nextId, authorName: '', embedTitle: '', embedDescription: '', embedColor: 9936031}],
         nextId: this.state.nextId + 1
     });
   }
@@ -85,7 +85,8 @@ class MessageComponent extends React.Component {
             name: el.authorName
           },
           title: el.embedTitle,
-          description: el.embedDescription
+          description: el.embedDescription,
+          color: el.embedColor
         })
       })
     }
