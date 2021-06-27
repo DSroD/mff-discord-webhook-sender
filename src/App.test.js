@@ -1,8 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+
+test('embed open and close', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+  const addEmbed = screen.getByText(/Add Embed/i);
+  addEmbed.click();
+  const newEmbed = screen.getByPlaceholderText(/Author name/i);
+  expect(newEmbed).toBeInTheDocument();
+}
+)
