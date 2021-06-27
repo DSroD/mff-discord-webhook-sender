@@ -30,7 +30,7 @@ class MessageComponent extends React.Component {
   render() {
     return(
       <Form>
-        <Form.Group controlId="mff-discord-webhook.Message">
+        <Form.Group className="main-message" controlId="mff-discord-webhook.Message">
           <Form.Control type="text" placeholder="Username"/>
           <Form.Control as="textarea" rows={1} placeholder="Message (max 2000 characters)" />
         </Form.Group>
