@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/mff-discord-webhook-sender/static/css/main.de654dfa.chunk.css",
-    "main.js": "/mff-discord-webhook-sender/static/js/main.2b56e3dc.chunk.js",
-    "main.js.map": "/mff-discord-webhook-sender/static/js/main.2b56e3dc.chunk.js.map",
+    "main.js": "/mff-discord-webhook-sender/static/js/main.d8161522.chunk.js",
+    "main.js.map": "/mff-discord-webhook-sender/static/js/main.d8161522.chunk.js.map",
     "runtime-main.js": "/mff-discord-webhook-sender/static/js/runtime-main.7e9ae39b.js",
     "runtime-main.js.map": "/mff-discord-webhook-sender/static/js/runtime-main.7e9ae39b.js.map",
     "static/css/2.d45d6843.chunk.css": "/mff-discord-webhook-sender/static/css/2.d45d6843.chunk.css",
-    "static/js/2.f60dfdb1.chunk.js": "/mff-discord-webhook-sender/static/js/2.f60dfdb1.chunk.js",
-    "static/js/2.f60dfdb1.chunk.js.map": "/mff-discord-webhook-sender/static/js/2.f60dfdb1.chunk.js.map",
+    "static/js/2.17f96e19.chunk.js": "/mff-discord-webhook-sender/static/js/2.17f96e19.chunk.js",
+    "static/js/2.17f96e19.chunk.js.map": "/mff-discord-webhook-sender/static/js/2.17f96e19.chunk.js.map",
     "static/js/3.651ab974.chunk.js": "/mff-discord-webhook-sender/static/js/3.651ab974.chunk.js",
     "static/js/3.651ab974.chunk.js.map": "/mff-discord-webhook-sender/static/js/3.651ab974.chunk.js.map",
     "index.html": "/mff-discord-webhook-sender/index.html",
     "static/css/2.d45d6843.chunk.css.map": "/mff-discord-webhook-sender/static/css/2.d45d6843.chunk.css.map",
     "static/css/main.de654dfa.chunk.css.map": "/mff-discord-webhook-sender/static/css/main.de654dfa.chunk.css.map",
-    "static/js/2.f60dfdb1.chunk.js.LICENSE.txt": "/mff-discord-webhook-sender/static/js/2.f60dfdb1.chunk.js.LICENSE.txt",
+    "static/js/2.17f96e19.chunk.js.LICENSE.txt": "/mff-discord-webhook-sender/static/js/2.17f96e19.chunk.js.LICENSE.txt",
     "static/media/App.css": "/mff-discord-webhook-sender/static/media/addimg.37b99a81.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7e9ae39b.js",
     "static/css/2.d45d6843.chunk.css",
-    "static/js/2.f60dfdb1.chunk.js",
+    "static/js/2.17f96e19.chunk.js",
     "static/css/main.de654dfa.chunk.css",
-    "static/js/main.2b56e3dc.chunk.js"
+    "static/js/main.d8161522.chunk.js"
   ]
 }
