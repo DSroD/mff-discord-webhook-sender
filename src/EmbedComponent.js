@@ -5,13 +5,14 @@ import Button from 'react-bootstrap/Button';
 
 const EmbedComponent = ({embId, delFunc}) => {
     return (
-        <Form.Group>
+        <Form.Group controlId={"mff-discord-webhook.Embed." + embId}>
         <div className="embed">
             <Button className="embed-close" variant="outline-dark" onClick={() => {delFunc(embId)}}>x</Button>
             <Card>
                 <Card.Body>
-                    <Form.Control type="text" placeholder="Author name" name={"embed_username" + embId}/>
-                    <Form.Control type="text" placeholder="Embed title" name={"embed_title" + embId}/>
+                    <Form.Control className="msg-form-input" type="text" placeholder="Author name" name={"embed_username_" + embId}/>
+                    <Form.Control className="msg-form-input" type="text" placeholder="Embed title" name={"embed_title_" + embId}/>
+                    <Form.Control className="msg-form-input" type="text" placeholder="Embed description" name={"embed_description_" + embId}/>
                 </Card.Body>
             </Card>
         </div>

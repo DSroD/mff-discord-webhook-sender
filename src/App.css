@@ -7,14 +7,18 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.message-form {
+  min-width: 40vw;
 }
 
 .main-message {
@@ -35,4 +39,9 @@
   padding: 0px 6px 0px 6px;
   color:#72767d;
   border: none;
+}
+
+.msg-form-input {
+  padding: 4px;
+  background-color: #9a9fa8;
 }
