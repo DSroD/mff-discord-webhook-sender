@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/mff-discord-webhook-sender/static/css/main.bee2b28d.chunk.css",
-    "main.js": "/mff-discord-webhook-sender/static/js/main.f58189e5.chunk.js",
-    "main.js.map": "/mff-discord-webhook-sender/static/js/main.f58189e5.chunk.js.map",
-    "runtime-main.js": "/mff-discord-webhook-sender/static/js/runtime-main.7e9ae39b.js",
-    "runtime-main.js.map": "/mff-discord-webhook-sender/static/js/runtime-main.7e9ae39b.js.map",
+    "main.js": "/mff-discord-webhook-sender/static/js/main.e803af07.chunk.js",
+    "main.js.map": "/mff-discord-webhook-sender/static/js/main.e803af07.chunk.js.map",
+    "runtime-main.js": "/mff-discord-webhook-sender/static/js/runtime-main.0012ce76.js",
+    "runtime-main.js.map": "/mff-discord-webhook-sender/static/js/runtime-main.0012ce76.js.map",
     "static/css/2.d45d6843.chunk.css": "/mff-discord-webhook-sender/static/css/2.d45d6843.chunk.css",
-    "static/js/2.17f96e19.chunk.js": "/mff-discord-webhook-sender/static/js/2.17f96e19.chunk.js",
-    "static/js/2.17f96e19.chunk.js.map": "/mff-discord-webhook-sender/static/js/2.17f96e19.chunk.js.map",
-    "static/js/3.651ab974.chunk.js": "/mff-discord-webhook-sender/static/js/3.651ab974.chunk.js",
-    "static/js/3.651ab974.chunk.js.map": "/mff-discord-webhook-sender/static/js/3.651ab974.chunk.js.map",
+    "static/js/2.15ae7b5a.chunk.js": "/mff-discord-webhook-sender/static/js/2.15ae7b5a.chunk.js",
+    "static/js/2.15ae7b5a.chunk.js.map": "/mff-discord-webhook-sender/static/js/2.15ae7b5a.chunk.js.map",
+    "static/js/3.5b749a0d.chunk.js": "/mff-discord-webhook-sender/static/js/3.5b749a0d.chunk.js",
+    "static/js/3.5b749a0d.chunk.js.map": "/mff-discord-webhook-sender/static/js/3.5b749a0d.chunk.js.map",
     "index.html": "/mff-discord-webhook-sender/index.html",
     "static/css/2.d45d6843.chunk.css.map": "/mff-discord-webhook-sender/static/css/2.d45d6843.chunk.css.map",
     "static/css/main.bee2b28d.chunk.css.map": "/mff-discord-webhook-sender/static/css/main.bee2b28d.chunk.css.map",
-    "static/js/2.17f96e19.chunk.js.LICENSE.txt": "/mff-discord-webhook-sender/static/js/2.17f96e19.chunk.js.LICENSE.txt",
+    "static/js/2.15ae7b5a.chunk.js.LICENSE.txt": "/mff-discord-webhook-sender/static/js/2.15ae7b5a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/mff-discord-webhook-sender/static/media/addimg.37b99a81.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e9ae39b.js",
+    "static/js/runtime-main.0012ce76.js",
     "static/css/2.d45d6843.chunk.css",
-    "static/js/2.17f96e19.chunk.js",
+    "static/js/2.15ae7b5a.chunk.js",
     "static/css/main.bee2b28d.chunk.css",
-    "static/js/main.f58189e5.chunk.js"
+    "static/js/main.e803af07.chunk.js"
   ]
 }
