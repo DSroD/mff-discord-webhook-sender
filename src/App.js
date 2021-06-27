@@ -7,9 +7,7 @@ function App() {
     <div className="App">
       <main className="App-main">
         <p>MFF Discord webhook stuff</p>
-        <div>
           <MessageComponent />
-        </div>
       </main>
     </div>
   );

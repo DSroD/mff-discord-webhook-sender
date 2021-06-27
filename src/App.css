@@ -32,6 +32,10 @@
   position: relative;
 }
 
+.embed-card {
+  background-color: #313436;
+}
+
 .embed-close {
   position: absolute;
   top: 0px;
@@ -44,4 +48,31 @@
 .msg-form-input {
   padding: 4px;
   background-color: #9a9fa8;
+}
+
+.avatar-main {
+  position: relative;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.avatar-main::before {
+  opacity: 0.3;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(./addimg.svg);
+  background-size: auto 75%;
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 const EmbedComponent = ({embId, delFunc}) => {
+
+    const [authorName, setAuthorName] = useState('');
+    const [embedTitle, setEmbedTitle] = useState('');
+    const [embedDescription, setEmbedDescription] = useState('');
+
     return (
         <Form.Group controlId={"mff-discord-webhook.Embed." + embId}>
         <div className="embed">
             <Button className="embed-close" variant="outline-dark" onClick={() => {delFunc(embId)}}>x</Button>
-            <Card>
+            <Card className="embed-card">
                 <Card.Body>
-                    <Form.Control className="msg-form-input" type="text" placeholder="Author name" name={"embed_username_" + embId}/>
-                    <Form.Control className="msg-form-input" type="text" placeholder="Embed title" name={"embed_title_" + embId}/>
-                    <Form.Control className="msg-form-input" type="text" placeholder="Embed description" name={"embed_description_" + embId}/>
+                    <Form.Control onChange={(e) => setAuthorName(e.target.value)} className="msg-form-input" type="text" placeholder="Author name"/>
+                    <Form.Control onChange={(e) => setEmbedTitle(e.target.value)} className="msg-form-input" type="text" placeholder="Embed title"/>
+                    <Form.Control onChange={(e) => setEmbedDescription(e.target.value)} className="msg-form-input" type="text" placeholder="Embed description"/>
                 </Card.Body>
             </Card>
         </div>
